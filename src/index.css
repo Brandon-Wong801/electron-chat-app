@@ -32,6 +32,22 @@ footer {
   left: 0;
   width: 100%;
   background-color: #3b3b3b;
+  display: inline;
+  padding: 5px;
+}
+#banner{
+  margin-block-start: 0;
+  margin-block-end: 0;
+  float: left;
+}
+#username{
+  position:relative;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  float: right;
+  padding-right: 10px;
+  top:10px;
+  bottom: 10px;
 }
 
 #subtitle{
@@ -47,6 +63,7 @@ footer {
 
 #uname{
   background-color:gray;
+  
 }
 
 ::placeholder{

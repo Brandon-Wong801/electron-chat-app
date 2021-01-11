@@ -12,7 +12,11 @@
   <script defer src= "functions.js"></script>
   <body>
     
-    <h1 class = "title">The Chat</h1>
+    <div class = "title">
+      <h1 id = "banner">The Chat</h1>
+      <p id = "username"></p>
+    </div>
+    
 
     <br>
     <br>
@@ -27,7 +31,7 @@
 
     <div class="input">
       <label for="fname">Username:</label>
-      <input type="text" id="uname" name="uname" placeholder="Enter Username">
+      <input type="text" id="uname" name="uname" placeholder="Enter Username" maxlength='25'>
 
       <button id = "enter">Enter</button>
     </div>
